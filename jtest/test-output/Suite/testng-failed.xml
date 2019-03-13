@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="test2" value="1"/>
+  <parameter name="test1" value="5"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="testng.demo1Test">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testng.demo1Test -->
+      <class name="testng.yunsuanTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="cheng" invocation-numbers="0 1 2"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testng.yunsuanTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

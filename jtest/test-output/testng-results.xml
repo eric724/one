@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75" started-at="2018-12-28T01:35:17Z" finished-at="2018-12-28T01:35:17Z">
+    <groups>
+      <group name="database">
+        <method signature="NewTest.testconnectmysql()[pri:0, instance:testng.NewTest@71f2a7d5]" name="testconnectmysql" class="testng.NewTest"/>
+        <method signature="NewTest.testconnectoracle()[pri:0, instance:testng.NewTest@71f2a7d5]" name="testconnectoracle" class="testng.NewTest"/>
+      </group> <!-- database -->
+      <group name="selenium-test">
+        <method signature="NewTest.runselenium()[pri:0, instance:testng.NewTest@71f2a7d5]" name="runselenium" class="testng.NewTest"/>
+        <method signature="NewTest.runselenium1()[pri:0, instance:testng.NewTest@71f2a7d5]" name="runselenium1" class="testng.NewTest"/>
+        <method signature="NewTest2.runselenium()[pri:0, instance:testng.NewTest2@2cfb4a64]" name="runselenium" class="testng.NewTest2"/>
+        <method signature="NewTest2.runselenium1()[pri:0, instance:testng.NewTest2@2cfb4a64]" name="runselenium1" class="testng.NewTest2"/>
+        <method signature="NewTest.runselenium()[pri:0, instance:testng.NewTest@546a03af]" name="runselenium" class="testng.NewTest"/>
+        <method signature="NewTest.runselenium1()[pri:0, instance:testng.NewTest@546a03af]" name="runselenium1" class="testng.NewTest"/>
+        <method signature="NewTest2.runselenium()[pri:0, instance:testng.NewTest2@721e0f4f]" name="runselenium" class="testng.NewTest2"/>
+        <method signature="NewTest2.runselenium1()[pri:0, instance:testng.NewTest2@721e0f4f]" name="runselenium1" class="testng.NewTest2"/>
+      </group> <!-- selenium-test -->
+    </groups>
+    <test name="Test" duration-ms="31" started-at="2018-12-28T01:35:17Z" finished-at="2018-12-28T01:35:17Z">
+      <class name="testng.NewTest2">
+        <test-method status="PASS" signature="runselenium()[pri:0, instance:testng.NewTest2@2cfb4a64]" name="runselenium" duration-ms="0" started-at="2018-12-28T09:35:17Z" finished-at="2018-12-28T09:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runselenium -->
+        <test-method status="PASS" signature="runselenium1()[pri:0, instance:testng.NewTest2@2cfb4a64]" name="runselenium1" duration-ms="1" started-at="2018-12-28T09:35:17Z" finished-at="2018-12-28T09:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runselenium1 -->
+      </class> <!-- testng.NewTest2 -->
+      <class name="testng.NewTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testng.NewTest@71f2a7d5]" name="setup" is-config="true" duration-ms="6" started-at="2018-12-28T09:35:17Z" finished-at="2018-12-28T09:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runselenium()[pri:0, instance:testng.NewTest@71f2a7d5]" name="runselenium" duration-ms="4" started-at="2018-12-28T09:35:17Z" finished-at="2018-12-28T09:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runselenium -->
+        <test-method status="PASS" signature="runselenium1()[pri:0, instance:testng.NewTest@71f2a7d5]" name="runselenium1" duration-ms="0" started-at="2018-12-28T09:35:17Z" finished-at="2018-12-28T09:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runselenium1 -->
+        <test-method status="PASS" signature="testconnectmysql()[pri:0, instance:testng.NewTest@71f2a7d5]" name="testconnectmysql" duration-ms="1" started-at="2018-12-28T09:35:17Z" finished-at="2018-12-28T09:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testconnectmysql -->
+        <test-method status="PASS" signature="testconnectoracle()[pri:0, instance:testng.NewTest@71f2a7d5]" name="testconnectoracle" duration-ms="1" started-at="2018-12-28T09:35:17Z" finished-at="2018-12-28T09:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testconnectoracle -->
+        <test-method status="PASS" signature="cleandb()[pri:0, instance:testng.NewTest@71f2a7d5]" name="cleandb" is-config="true" duration-ms="0" started-at="2018-12-28T09:35:17Z" finished-at="2018-12-28T09:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleandb -->
+      </class> <!-- testng.NewTest -->
+    </test> <!-- Test -->
+    <test name="selenium" duration-ms="6" started-at="2018-12-28T01:35:17Z" finished-at="2018-12-28T01:35:17Z">
+      <class name="testng.NewTest2">
+        <test-method status="PASS" signature="runselenium()[pri:0, instance:testng.NewTest2@721e0f4f]" name="runselenium" duration-ms="0" started-at="2018-12-28T09:35:17Z" finished-at="2018-12-28T09:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runselenium -->
+        <test-method status="PASS" signature="runselenium1()[pri:0, instance:testng.NewTest2@721e0f4f]" name="runselenium1" duration-ms="0" started-at="2018-12-28T09:35:17Z" finished-at="2018-12-28T09:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runselenium1 -->
+      </class> <!-- testng.NewTest2 -->
+      <class name="testng.NewTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testng.NewTest@546a03af]" name="setup" is-config="true" duration-ms="0" started-at="2018-12-28T09:35:17Z" finished-at="2018-12-28T09:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runselenium()[pri:0, instance:testng.NewTest@546a03af]" name="runselenium" duration-ms="1" started-at="2018-12-28T09:35:17Z" finished-at="2018-12-28T09:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runselenium -->
+        <test-method status="PASS" signature="runselenium1()[pri:0, instance:testng.NewTest@546a03af]" name="runselenium1" duration-ms="1" started-at="2018-12-28T09:35:17Z" finished-at="2018-12-28T09:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runselenium1 -->
+        <test-method status="PASS" signature="cleandb()[pri:0, instance:testng.NewTest@546a03af]" name="cleandb" is-config="true" duration-ms="0" started-at="2018-12-28T09:35:17Z" finished-at="2018-12-28T09:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleandb -->
+      </class> <!-- testng.NewTest -->
+    </test> <!-- selenium -->
+  </suite> <!-- Suite -->
+</testng-results>

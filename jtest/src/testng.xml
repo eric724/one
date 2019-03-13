@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<!--<parameters>
+<parameter name="test1" value="5"></parameter>
+<parameter name="test2" value="1"></parameter>
+</parameters>-->
+  <test name="Test">
+    <classes>
+      <!--<class name="testng.yunsuanTest"/>
+       <class name="testng.demo1Test"/>-->
+       
+       <class name="testng.NewTest"/>
+       <class name="testng.NewTest2"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="selenium">
+
+        <groups>
+            <run>
+                <include name="selenium-test" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="testng.NewTest" />
+            <class name="testng.NewTest2" />
+        </classes>
+
+    </test>
+  
+</suite> <!-- Suite -->
